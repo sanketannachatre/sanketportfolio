@@ -1,0 +1,27 @@
+/*html type selector rule*/
+h1{                     
+    color: purple;
+}
+ #header1 /*ID RUle */
+ {
+    color: green;
+ } /*ID rule has higher precendence over the html type selector rule*/
+ #blog > h1 {
+    color: blue;
+  }
+  #middle{
+   display: block;
+  }
+  .parent{
+   border:4px solid red;
+  }
+  .child{
+   width:50%;
+   padding:20px;
+   border:4px solid green;
+   margin:auto;
+   display: block;
+  }
+  .chil{
+   float: right;
+  }
